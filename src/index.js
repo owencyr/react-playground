@@ -1,7 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './paltrows-toes/App.js';
-import './index.css';
-import {BrowserRouter} from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import AppLang from "./lang-context/AppLang";
 
-ReactDOM.render(<BrowserRouter ><App /></BrowserRouter>, document.getElementById('root'));
+ReactDOM.render(<AppLang />, document.getElementById("root"));
